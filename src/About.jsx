@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import profileImg from "./profile.jpeg";
 
 function About() {
   return (
@@ -13,7 +14,7 @@ function About() {
 
               <h2>
                 Full Stack Developer &
-                <span> AI/ML Enthusiast</span>
+                <span> MERN Developer AI/ML Developer</span>
               </h2>
 
               <p>
@@ -49,15 +50,15 @@ function About() {
             </div>
           </div>
 
-          <div className="col-lg-6 text-center">
-            <div className="about-image">
-              <img
-                src="./src/profile.jpeg"
-                alt="Viswadharini"
-                className="img-fluid"
-              />
-            </div>
-          </div>
+         <div className="col-lg-6 text-center">
+  <div className="about-image">
+    <img
+      src={profileImg}
+      alt="Viswadharini"
+      className="img-fluid"
+    />
+  </div>
+</div>
 
         </div>
       </div>
